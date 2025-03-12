@@ -62,7 +62,7 @@ local AutoCompleteBasic = Gold:CreateToggle({
     CurrentValue = false,
     Flag = "AutoCompleteBasic",
     Callback = function(Value)
-        if Value then
+        while Value is true do
             local character = game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:Wait()
             local humanoidRootPart = character:FindFirstChild("HumanoidRootPart")
 
