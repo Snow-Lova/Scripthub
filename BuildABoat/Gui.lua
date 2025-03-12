@@ -11,7 +11,7 @@ local Window = Rayfield:CreateWindow({
     DisableBuildWarnings = false, -- Prevents Rayfield from warning when the script has a version mismatch with the interface
  
     ConfigurationSaving = {
-       Enabled = true,
+       Enabled = false,
        FolderName = nil, -- Create a custom folder for your hub/game
        FileName = "SnowLoverBABFT"
     },
@@ -78,6 +78,7 @@ local AutoCompleteBasic = Gold:CreateToggle({
             Duration = 4,
             Image = "bell-plus",
             })
+            task.wait(10)
         end
     end,
 })
@@ -114,6 +115,7 @@ local BasicAmount = Gold:CreateInput({
                 task.wait(0.1) -- Prevents excessive looping
             end
             loadstring(game:HttpGet("https://raw.githubusercontent.com/Snow-Lova/Scripthub/refs/heads/main/BuildABoat/CompleteSimple.lua"))()
+            task.wait(10)
        end
     end,
 })
