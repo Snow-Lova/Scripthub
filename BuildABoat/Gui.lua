@@ -78,7 +78,11 @@ local AutoCompleteBasic = Gold:CreateToggle({
             Duration = 4,
             Image = "bell-plus",
             })
-            task.wait(10)
+            while humanoidRootPart do
+                character = game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:Wait()
+                humanoidRootPart = character:FindFirstChild("HumanoidRootPart")
+                task.wait(0.001) -- Prevents excessive looping
+            end
         end
     end,
 })
