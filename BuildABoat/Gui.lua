@@ -47,7 +47,7 @@ local CompleteBasic = Gold:CreateButton({
             Duration = 4,
             Image = "bell-ring",
         })
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Snow-Lova/ScriptsProtected/main/SnowloverBABFT/CompleteSimple.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Snow-Lova/Scripthub/refs/heads/main/BuildABoat/CompleteSimple.lua"))()
         Rayfield:Notify({
             Title = "Completed",
             Content = "SimpleComplete has been finished",
@@ -71,7 +71,7 @@ local AutoCompleteBasic = Gold:CreateToggle({
                 humanoidRootPart = character:FindFirstChild("HumanoidRootPart")
                 task.wait(0.1) -- Prevents excessive looping
             end
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/Snow-Lova/ScriptsProtected/main/SnowloverBABFT/CompleteSimple.lua"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Snow-Lova/Scripthub/refs/heads/main/BuildABoat/CompleteSimple.lua"))()
             Rayfield:Notify({
             Title = "Completion Notice",
             Content = "Completed Once",
@@ -113,7 +113,7 @@ local BasicAmount = Gold:CreateInput({
                 humanoidRootPart = character:FindFirstChild("HumanoidRootPart")
                 task.wait(0.1) -- Prevents excessive looping
             end
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/Snow-Lova/ScriptsProtected/main/SnowloverBABFT/CompleteSimple.lua"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Snow-Lova/Scripthub/refs/heads/main/BuildABoat/CompleteSimple.lua"))()
        end
     end,
 })
@@ -129,7 +129,7 @@ local CompleteAdv = Gold:CreateButton({
             Duration = 4,
             Image = "bell-ring",
         })
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Snow-Lova/ScriptsProtected/main/SnowloverBABFT/CompleteSimple.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Snow-Lova/Scripthub/refs/heads/main/BuildABoat/CompleteAdvanced.lua"))()
         Rayfield:Notify({
             Title = "Completed",
             Content = "AdvComplete has been finished",
@@ -153,7 +153,7 @@ local AutoCompleteAdv = Gold:CreateToggle({
                 humanoidRootPart = character:FindFirstChild("HumanoidRootPart")
                 task.wait(0.1) -- Prevents excessive looping
             end
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/Snow-Lova/ScriptsProtected/main/SnowloverBABFT/CompleteSimple.lua"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Snow-Lova/Scripthub/refs/heads/main/BuildABoat/CompleteAdvanced.lua"))()
             Rayfield:Notify({
             Title = "Completion Notice",
             Content = "Completed Once",
@@ -195,7 +195,7 @@ local AdvCOAmount = Gold:CreateInput({
                 humanoidRootPart = character:FindFirstChild("HumanoidRootPart")
                 task.wait(0.1) -- Prevents excessive looping
             end
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/Snow-Lova/ScriptsProtected/main/SnowloverBABFT/CompleteSimple.lua"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Snow-Lova/Scripthub/refs/heads/main/BuildABoat/CompleteAdvanced.lua"))()
        end
     end,
 })
