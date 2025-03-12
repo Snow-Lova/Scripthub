@@ -196,8 +196,10 @@ local AdvCOAmount = Gold:CreateInput({
                 task.wait(0.1) -- Prevents excessive looping
             end
             loadstring(game:HttpGet("https://raw.githubusercontent.com/Snow-Lova/Scripthub/refs/heads/main/BuildABoat/CompleteAdvanced.lua"))()
-       end
+        end
     end,
 })
+
+task.wait(0.25)
 
 Rayfield:LoadConfiguration()
